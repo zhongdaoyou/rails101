@@ -3,4 +3,8 @@ class GroupsController < ApplicationController
     @groups = Group.all
   end
 
+  def new
+    @groups = Group.new
+  end
+
 end
